@@ -1,4 +1,5 @@
-let multiplicador = 3
+const multText = document.getElementById('numberMult')
+let multiplicador = 2
 let canvas = document.getElementById('canv')
 let ctx = canvas.getContext('2d')
 
@@ -11,6 +12,7 @@ guardarClick.addEventListener('click', evt => {
   clickSet()
   document.getElementById('numberScore').innerText = moeda
   console.log(clicks)
+
 
 })
 
@@ -29,9 +31,7 @@ function clickSet() {
   }
 }
 
-/* function multi1() {
-  
-  }
-} */
+document.getElementById('numberMult').innerText = multiplicador
+
 
 //canvas

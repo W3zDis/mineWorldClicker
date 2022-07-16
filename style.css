@@ -36,4 +36,20 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.mult1 {
+  position: absolute;
+  left: 60%;
+  top: 3%;
+  transform: translate(-60%, -3%);
+  color: white;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+#numberMult {
+  position: absolute;
+  font-size: 15px;
+  top: 21px;
+  margin: auto 84%;
+  color: white;
+}
