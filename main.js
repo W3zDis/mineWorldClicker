@@ -1,4 +1,4 @@
-let multiplicador = 1
+let multiplicador = 3
 let canvas = document.getElementById('canv')
 let ctx = canvas.getContext('2d')
 
@@ -11,14 +11,14 @@ guardarClick.addEventListener('click', evt => {
   clickSet()
   document.getElementById('numberScore').innerText = moeda
   console.log(clicks)
-  
+
 })
 
 function clickSet() {
   clicks += 1
   if (clicks >= maxClicks) {
     maxClicks += 10
-    moeda ++ 
+    moeda++
     //multiplicadores
   } else if (multiplicador == 1) {
     moeda += 10
@@ -35,5 +35,3 @@ function clickSet() {
 } */
 
 //canvas
-
-
