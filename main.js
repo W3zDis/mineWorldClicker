@@ -12,7 +12,7 @@ guardarClick.addEventListener('click', evt => {
   document.getElementById('numberScore').innerText = moeda
   console.log(clicks)
 
-})a
+})
 
 function clickSet() {
   clicks += 1
