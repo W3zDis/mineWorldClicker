@@ -1,0 +1,38 @@
+
+
+#clickEvent {
+  background-color: transparent;
+  border: 0;
+  position: absolute;
+  left: 50%;
+  top: 110%;
+  transform: translate(-50%, -110%);
+}
+
+.moedaDesign {
+  height: 40px;
+  position: relative;
+  top: 20%;
+  margin: auto 10px;
+}
+
+header {
+  background-color: darkslategray;
+  width: 200%;
+  height: 70px;
+  position: relative;
+  left: -10px;
+  top: -8px;
+  box-shadow: 0px 0px 5px black;
+  max-width: 403px;
+}
+
+h1 {
+  color: white;
+  position: relative;
+  top: -27px;
+  margin: auto 60px;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
